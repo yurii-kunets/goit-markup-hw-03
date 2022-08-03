@@ -2,6 +2,33 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -10,7 +37,25 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ---------HEADER-------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .header-logo {
   font-family: 'Raleway';
@@ -55,9 +100,19 @@ body {
 
 .hero {
   background: #757575;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.hero-content {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .hero-unique {
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -65,6 +120,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -79,9 +136,15 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+  display: block;
+  margin: 0 auto;
 }
 
 /* ---------ABOUT--------- */
+
+.advantages {
+  padding-bottom: 0;
+}
 
 .advantages-title {
   font-weight: 700;
@@ -90,6 +153,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .advantages-descr {
@@ -98,6 +162,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  border: 1px solid;
 }
 
 /* ---------ACTIVITIES--------- */
@@ -109,6 +174,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 /* ---------TEAM--------- */
@@ -124,10 +190,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .team-item {
   background: #ffffff;
+}
+
+.team-image {
+  margin-bottom: 30px;
 }
 
 .team-title {
@@ -137,6 +208,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .team-descr {
@@ -152,6 +224,8 @@ body {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
