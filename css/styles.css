@@ -57,6 +57,29 @@ img {
   padding-bottom: 25px;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  column-gap: 50px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-connect {
+  margin-left: auto;
+}
+
+.header-contacts {
+  display: flex;
+}
+
 .header-logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -65,6 +88,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
 
 .header-link {
@@ -94,6 +118,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-left: 50px;
 }
 
 /* ---------HERO--------- */
@@ -136,12 +161,21 @@ img {
   background: #2196f3;
   display: block;
   margin: 0 auto;
+  min-width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  border-color: transparent;
 }
 
 /* ---------ABOUT--------- */
 
 .advantages {
   padding-bottom: 0;
+}
+
+.advantages-list {
+  display: flex;
+  column-gap: 30px;
 }
 
 .advantages-title {
@@ -164,6 +198,11 @@ img {
 }
 
 /* ---------ACTIVITIES--------- */
+
+.activities-list {
+  display: flex;
+  column-gap: 30px;
+}
 
 .activities-main {
   font-weight: 700;
@@ -191,8 +230,14 @@ img {
   margin-bottom: 50px;
 }
 
+.team-list {
+  display: flex;
+  column-gap: 30px;
+}
+
 .team-item {
   background: #ffffff;
+  width: calc((100% - 90px) / 4);
 }
 
 .teams-text {
@@ -276,11 +321,13 @@ img {
 
 .portfolio-filter {
   margin-bottom: 34px;
+  display: flex;
+  column-gap: 8px;
+  justify-content: center;
 }
 
 .portfolio-filter-button {
   font-family: inherit;
-  display: flex;
   align-items: center;
   text-align: center;
   font-weight: 500;
@@ -288,12 +335,24 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   background: #f5f4fa;
+  border-radius: 4px;
+  border-color: transparent;
 }
 
 .portfolio-filter-button:hover,
 .portfolio-filter-button:focus {
   background: #2196f3;
   color: #ffffff;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio-item {
+  width: calc((100% - 60px) / 3);
 }
 
 .portfolio-text {
