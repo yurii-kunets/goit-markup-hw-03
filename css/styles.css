@@ -55,6 +55,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-nav {
@@ -128,10 +129,8 @@ img {
 }
 
 .hero-content {
-  padding-left: 200px;
-  padding-right: 200px;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-unique {
@@ -298,7 +297,7 @@ img {
 }
 
 .footer-email-link {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -308,7 +307,7 @@ img {
 }
 
 .footer-tel-link {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -320,7 +319,7 @@ img {
 /* ---------PORTFOLIO--------- */
 
 .portfolio-filter {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   column-gap: 8px;
   justify-content: center;
@@ -337,6 +336,7 @@ img {
   background: #f5f4fa;
   border-radius: 4px;
   border-color: transparent;
+  padding: 6px 22px;
 }
 
 .portfolio-filter-button:hover,
@@ -362,6 +362,7 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-item-title {
