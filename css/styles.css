@@ -126,9 +126,6 @@ img {
 
 .hero {
   background: #757575;
-}
-
-.hero-content {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -284,6 +281,10 @@ img {
 
 .footer-links {
   margin-top: 20px;
+}
+
+.footer-links-item {
+  margin-bottom: 9px;
 }
 
 .footer-adress-link {
